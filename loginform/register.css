@@ -1,0 +1,50 @@
+ body {
+            font-family: 'Arial', sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            width: 400px;
+			border:2px solid black;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			font-size:13px;
+			background-color:gray;
+			
+        }
+        h2 {
+            text-align: center;
+            color:  purple;
+        }
+        label {
+            display: block;
+            margin-bottom: 4px;
+            color: white;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="radio"] {
+             padding-bottom:4px;
+        }
+        button {
+            width: 40%;
+			margin-left:30%;
+            padding: 8px;
+            background-color: blue;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+		div{ margin-bottom:10px;}
